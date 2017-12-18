@@ -4,13 +4,10 @@ body{
 	display: block;
 }
 .top-bar{
-	position: absolute;
-	top: 0;
-	left: 0;
 	width: 100%;
 	height: 50px;
 }
-.top-bar, .top-bar div, .top-bar p{
+.top-bar p{
 	display: inline-block;
 }
 .bottom-bar{
@@ -21,7 +18,7 @@ body{
 	height: 49px;
 	width: 100%;
 }
-.bottom-bar, .bottom-bar div, .bottom-bar p{
+.bottom-bar p{
 	display: inline-block;
 }
 .right p, .right img, .left p{
@@ -29,19 +26,12 @@ body{
 	margin-left: 7px;
 }
 .left{
-	position: absolute;
-	left: 0;
+	float: left;
 }
 .right{
-	position: absolute;
-	right: 0;
-}
-.bottom-bar div{
-	position: absolute;
-	bottom: 0;
+	float: right;
 }
 .Content{
-	position: relative;
 	height: 378px;
 	width: 100%;
 	margin: 50px 0 0 0;
